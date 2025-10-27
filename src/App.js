@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import AddTask from './pages/AddTask';
+import { TaskProvider } from './context/TaskContext';
 import './App.css';
+import "./Formulario.css"
+import EditarTask from './pages/EditarTask';
+import VisualizarTask from './pages/VisualizarTask';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (<BrowserRouter>
+      <TaskProvider>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/add-task" element={<AddTask />} />
+          <Route path="/edita-task/:id" element={<EditarTask />} />
+          <Route path="/visualizar-task/:id" element={<VisualizarTask />} />
+        </Routes>
+      </TaskProvider>
+    </BrowserRouter>
   );
 }
 

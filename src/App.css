@@ -1,18 +1,184 @@
+
+html {
+  background-color: #fdfdfd;
+  
+}
+
+.home {
+ background-color:    #509AAF;  /*#1D2B53 #44bba4 ;*/
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+width: 45%;
+margin: auto;
+border: 2px solid #A4303F;
+border-radius: 20px;
+min-height: 650px;
+}
+
+#titulo-principal{
+  text-shadow: black 1px 3px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:azure;
+  
+}
+
+h2 {
+  color: cornsilk;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.titulo-da-tarefa {
+        display: inline-block;
+        vertical-align: middle;
+        width: 350px;
+        border-bottom: 1px solid #16610E;
+        white-space: nowrap; /* Não quebra linha */
+        overflow: hidden; /* Esconde o excesso */
+        text-overflow: ellipsis; /* Adiciona "..." */
+        padding-left: 10px;
+        margin: 0;
+        margin-right: 10px;
+        font-size: large;
+        color: darkgreen;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.afazer {
+  padding: 10px;
+  background-color: #FF9B00;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn-delete {
+   background: none;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle; /* Adicione isso */
+}
+
+
+.btn-editar { 
+    vertical-align: middle; /* Adicione isso */
+}
+
+
+.descricao {
+
+    display: -webkit-box;
+    width: 350px;
+    overflow: hidden;
+    -webkit-line-clamp: 4; 
+    line-clamp: 2; 
+    -webkit-box-orient: vertical; 
+    margin: 8px;
+    padding-left: 10px;
+    word-break: break-all;
+    color: rgb(33, 54, 54);
+
+}
+
+.btn-visualizar img{
+  
+     padding-left: 5px;
+     width: 15px;
+
+}
+
+.img-lista-vazia {
+    
+   height: 400px;
+
+}
+
+.btn-limpar {
+   background-color:darkslategrey;
+   color:beige;
+   border-radius: 4px;
+   margin-bottom: 10px;
+   font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 600;
+   font-size: 0.75em;
+
+}
+
+.btn-limpar:hover {
+   background-color:rgb(22, 40, 40);
+}
+
+.input-home {
+
+  border-radius: 20px;
+  width: 30em;
+  height: 2.7em;
+  padding: 4px;
+  
+
+}
+
+.input-home::placeholder{
+   padding-left: 10px;
+}
+
+
+.btn-add {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 14px;
+  background-color: #16610E;
+  color: cornsilk;
+  border-radius: 14px;
+  text-decoration: none;
+  font-family:  Cochin, Geneva, Verdana, sans-serif;
+  font-size: 0.75em;
+  vertical-align: middle; /* Adicione isso */
+  margin-left: 5px;
+  border: 2px solid rgb(2, 70, 2);
+  font-weight: 550;
+  
+}
+
+.btn-add:hover {
+
+  background-color: #B60071;    /*rgb(93, 158, 58);*/
+  border: 2px solid #560136;
+}
+
+.btn-add img {
+     width: 30px;
+  height: 30px;
+ 
+
+}
+
+
+/*
+#2C514C militar claro
+#576066 payne´s gray
+#122932 azul marinho esverdeado
+#E3C0D3 rosado
+#95818D rosado mais escuro
+#D6D1CD feijao
+#E5ECE9 creme
+#C60F7B rosa
+
+
+
+
+
+*/
+/*
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,16 +189,5 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+*/ 
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,0 +1,105 @@
+
+.container-principal {
+   margin: auto;
+   margin-top: 100px;
+   background-color: #27548A;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 40%;
+   height: 450px;
+   border-radius: 15px;
+   border: 2px solid #A4303F;
+}
+
+h1 {
+    color: #FF9B00;
+}
+.formulario {
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-ph {
+    
+    width: 30em;
+    height: 2em;
+    border-radius: 5px;
+}
+
+
+.titulo-ph::placeholder {
+     padding-left: 8px;
+
+}
+
+.descricao-ph{
+   border-radius: 5px;
+   margin-bottom: 10px;
+   
+
+}
+.descricao-ph::placeholder {
+     padding-left: 8px;
+     
+}
+
+.lb-titulo{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.lb-descricao {
+  margin-top: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.botoes {
+display: flex;
+justify-content: space-between;
+width: 100%;
+margin-top: 8px;
+
+}
+.btn-dinamico {
+    background-color: #16610E;
+    color: cornsilk;
+    padding: 6px 8px;
+    font-weight: 550;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+
+.btn-dinamico:hover {
+    background-color: #FF9B00;
+    border: 2px solid #c57702;
+    color: #0b2e44;
+}
+.btn-voltar {
+   background-color: #10405d;
+   border: 2px solid #0b2e44;
+   display: inline-flex;
+   align-items: center;
+  vertical-align: middle; /* Adicione isso */
+   gap: 4px; 
+   text-decoration: none;
+   color: cornsilk;
+   border-radius: 4px;
+   padding-right: 7px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+
+}
+
+.btn-voltar:hover {
+    background-color: #B60071;
+    border: 2px solid #560136;
+}
+
+.btn-voltar img {
+    width: 30px;
+    height: 30px;
+
+}
