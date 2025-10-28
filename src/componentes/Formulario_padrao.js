@@ -1,7 +1,7 @@
 
 import { useContext, useState, useEffect } from "react";  
 import { TaskContext } from "../context/TaskContext";
-import {iconeVoltar} from "./icons/arrow-back.svg";
+import {iconeVoltar} from "../icons/arrow-back.svg";
 
 import { Link} from "react-router-dom";
 

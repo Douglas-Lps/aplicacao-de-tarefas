@@ -1,12 +1,12 @@
 
 import { Link } from "react-router-dom";
 import { useContext } from "react";
-import Formulario from "../componentes/Formulario_padrao";
 import { TaskContext } from "../context/TaskContext";
-import {iconeAdicionar} from "./icons/add_circle_preto.svg";
-import {iconeListaVazia} from "./icons/lista-vazia-add.svg";
-import {iconeEditar} from "./icons/edit-square.svg";
-import {iconeLixeira} from "./icons/icone-lixeira.svg";
+
+import {iconeAdicionar} from "../icons/add_circle_preto.svg";
+import {iconeListaVazia} from "../icons/lista-vazia-add.svg";
+import {iconeEditar} from "../icons/edit-square.svg";
+import {iconeLixeira} from "../icons/icone-lixeira.svg";
 import {iconeVisualizar} from "./icons/visibility.svg";
 
 function Home(){
