@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/aplicacao-de-tarefas/static/css/main.e33c701a.css",
-    "main.js": "/aplicacao-de-tarefas/static/js/main.2e73c55b.js",
+    "main.js": "/aplicacao-de-tarefas/static/js/main.f6cf924d.js",
     "static/js/453.34a7abf7.chunk.js": "/aplicacao-de-tarefas/static/js/453.34a7abf7.chunk.js",
     "index.html": "/aplicacao-de-tarefas/index.html",
+    "static/media/lista-vazia-add.svg": "/aplicacao-de-tarefas/static/media/lista-vazia-add.fb02570a30a0ac6f24c2da97ede58fa2.svg",
+    "static/media/add_circle_preto.svg": "/aplicacao-de-tarefas/static/media/add_circle_preto.c9f3adf92243655d865e5808eed2824a.svg",
+    "static/media/visibility.svg": "/aplicacao-de-tarefas/static/media/visibility.6d9dedaac9c758bde0f5fd8a5563d604.svg",
+    "static/media/edit-square.svg": "/aplicacao-de-tarefas/static/media/edit-square.26b176b969bf55561b25cc39d6c92260.svg",
+    "static/media/icone-lixeira.svg": "/aplicacao-de-tarefas/static/media/icone-lixeira.60850edbe2edd7f125bee47fb21fa25c.svg",
+    "static/media/arrow-back.svg": "/aplicacao-de-tarefas/static/media/arrow-back.2294cf188d6df0c4d66d6451289dd3b6.svg",
     "main.e33c701a.css.map": "/aplicacao-de-tarefas/static/css/main.e33c701a.css.map",
-    "main.2e73c55b.js.map": "/aplicacao-de-tarefas/static/js/main.2e73c55b.js.map",
+    "main.f6cf924d.js.map": "/aplicacao-de-tarefas/static/js/main.f6cf924d.js.map",
     "453.34a7abf7.chunk.js.map": "/aplicacao-de-tarefas/static/js/453.34a7abf7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e33c701a.css",
-    "static/js/main.2e73c55b.js"
+    "static/js/main.f6cf924d.js"
   ]
 }
