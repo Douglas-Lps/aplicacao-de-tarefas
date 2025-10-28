@@ -11,7 +11,7 @@ import VisualizarTask from './pages/VisualizarTask';
 
 
 function App() {
-  return (<BrowserRouter>
+  return (<BrowserRouter basename="/aplicacao-de-tarefas">
       <TaskProvider>
         <Routes>
           <Route path="/" element={<Home />} />
