@@ -1,6 +1,7 @@
 
 import { useContext, useState, useEffect } from "react";  
 import { TaskContext } from "../context/TaskContext";
+import {iconeVoltar} from "./icons/arrow-back.svg";
 
 import { Link} from "react-router-dom";
 
@@ -85,7 +86,7 @@ return <>
                     onChange={manipularMudancaInput}
                 ></textarea>
 <div className="botoes"> 
-<Link to="/" className="btn-voltar"> <img src="/icons/arrow-back.svg" ></img><span>Voltar</span></Link>
+<Link to="/" className="btn-voltar"> <img src={iconeVoltar}></img><span>Voltar</span></Link>
 { props.textoBotao && <button className="btn-dinamico" type="submit">{props.textoBotao}</button>}
 </div>   
  </form>
